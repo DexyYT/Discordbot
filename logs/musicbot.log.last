@@ -1,0 +1,134 @@
+[71.689844131] 2018-04-03 12:04:40,393 - INFO - launcher: Starting sanity checks
+[72.191238403] 2018-04-03 12:04:40,393 - INFO - launcher: Checking for Python 3.5+
+[72.692871094] 2018-04-03 12:04:40,394 - INFO - launcher: Checking console encoding
+[72.692871094] 2018-04-03 12:04:40,394 - INFO - launcher: Setting console encoding to UTF-8
+[73.193311691] 2018-04-03 12:04:40,394 - INFO - launcher: Ensuring we're in the right environment
+[76.703071594] 2018-04-03 12:04:40,398 - INFO - launcher: Adding local bins/ folder to path
+[79.210519791] 2018-04-03 12:04:40,400 - INFO - launcher: Required checks passed.
+[79.710960388] 2018-04-03 12:04:40,401 - INFO - launcher: Optional checks passed.
+[81.216573715] 2018-04-03 12:04:40,402 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.7446038722991943] 2018-04-03 12:04:43,066 - WARNING - musicbot.config | In config.py::MainThread(18708), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.7456068992614746] 2018-04-03 12:04:43,067 - INFO - musicbot.config | In config.py::MainThread(18708), line 123 in run_checks: Using i18n: config/i18n/en.json
+[2.7506809234619141] 2018-04-03 12:04:43,072 - DEBUG - musicbot.json | In json.py::MainThread(18708), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.0174040794372559] 2018-04-03 12:04:43,339 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 227 in _setup_logging: Set logging level to INFO
+[3.0179054737091064] 2018-04-03 12:04:43,339 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 84 in __init__: Starting MusicBot 1.9.7
+[3.0184078216552734] 2018-04-03 12:04:43,340 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[5.9108254909515381] 2018-04-03 12:04:46,232 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 1074 in on_ready: Connection established, ready to go.
+[5.9113295078277588] 2018-04-03 12:04:46,232 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 339 in _cache_app_info: Caching app info
+[6.0662288665771484] 2018-04-03 12:04:46,387 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[6.0701780319213867] 2018-04-03 12:04:46,391 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 899 in _scheck_ensure_env: Deleted old audio cache
+[6.0706789493560791] 2018-04-03 12:04:46,392 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 905 in _scheck_server_permissions: Checking server permissions
+[6.0706789493560791] 2018-04-03 12:04:46,392 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[6.0706789493560791] 2018-04-03 12:04:46,392 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 913 in _scheck_configs: Validating config
+[6.0711798667907715] 2018-04-03 12:04:46,392 - DEBUG - musicbot.config | In config.py::MainThread(18708), line 212 in async_validate: Validating options...
+[6.0711798667907715] 2018-04-03 12:04:46,392 - DEBUG - musicbot.config | In config.py::MainThread(18708), line 226 in async_validate: Acquired owner id via API
+[6.0711798667907715] 2018-04-03 12:04:46,392 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 916 in _scheck_configs: Validating permissions config
+[6.0711798667907715] 2018-04-03 12:04:46,392 - DEBUG - musicbot.permissions | In permissions.py::MainThread(18708), line 64 in async_validate: Validating permissions...
+[6.0717167854309082] 2018-04-03 12:04:46,393 - DEBUG - musicbot.permissions | In permissions.py::MainThread(18708), line 68 in async_validate: Fixing automatic owner group
+[6.0717167854309082] 2018-04-03 12:04:46,393 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 1091 in on_ready: Connected: 430078535336460288/Custom MusikBot#8555
+[6.0726845264434814] 2018-04-03 12:04:46,394 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 1099 in on_ready: Owner:     196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155
+
+[6.0736887454986572] 2018-04-03 12:04:46,395 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 1102 in on_ready: Server List:
+[6.0746936798095703] 2018-04-03 12:04:46,396 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 1105 in on_ready:  - AzollaNetwork
+[6.0756964683532715] 2018-04-03 12:04:46,397 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 1151 in on_ready: Not bound to any text channels
+[6.0761957168579102] 2018-04-03 12:04:46,397 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 1177 in on_ready: Not autojoining any voice channels
+[11.6309225559234619] 2018-04-03 12:04:51,952 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 2938 in on_voice_state_update: Voice state update for 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155 on AzollaNetwork/Musik #1 -> [CONNECT]
+[15.6518168449401855] 2018-04-03 12:04:55,973 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *summon
+[15.6528203487396240] 2018-04-03 12:04:55,974 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2019 in cmd_summon: Joining AzollaNetwork/Musik #1
+[15.6538238525390625] 2018-04-03 12:04:55,975 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 452 in get_voice_client: Connection attempt 1 to Musik #1
+[15.6538238525390625] 2018-04-03 12:04:55,975 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[15.6543238162994385] 2018-04-03 12:04:55,975 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[15.6548252105712891] 2018-04-03 12:04:55,976 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[15.8054716587066650] 2018-04-03 12:04:56,127 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 2938 in on_voice_state_update: Voice state update for 430078535336460288/Custom MusikBot#8555 on AzollaNetwork/Musik #1 -> [JOIN, CONNECT]
+[15.8059720993041992] 2018-04-03 12:04:56,127 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2949 in on_voice_state_update: 430078535336460288/Custom MusikBot#8555 has joined AzollaNetwork/Musik #1
+[15.8067407608032227] 2018-04-03 12:04:56,128 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[15.8955359458923340] 2018-04-03 12:04:56,217 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[16.1632294654846191] 2018-04-03 12:04:56,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[16.1637310981750488] 2018-04-03 12:04:56,485 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 478 in get_voice_client: Connected in 0.5s
+[16.1637310981750488] 2018-04-03 12:04:56,485 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 479 in get_voice_client: Connected to AzollaNetwork/Musik #1
+[16.1649179458618164] 2018-04-03 12:04:56,486 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 849 in deserialize_queue: Deserializing queue for 398639161038340096
+[16.5402932167053223] 2018-04-03 12:04:56,861 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 570 in get_player: Created player via deserialization for server 398639161038340096 with 8 entries
+[16.5417976379394531] 2018-04-03 12:04:56,863 - VOICEDEBUG - musicbot.player | In player.py::MainThread(18708), line 373 in websocket_check: Starting websocket check loop for AzollaNetwork
+[16.5422990322113037] 2018-04-03 12:04:56,863 - DEBUG - musicbot.entry | In entry.py::MainThread(18708), line 54 in get_ready_future: Created future for None
+[16.5422990322113037] 2018-04-03 12:04:56,863 - DEBUG - musicbot.entry | In entry.py::MainThread(18708), line 54 in get_ready_future: Created future for None
+[16.5443060398101807] 2018-04-03 12:04:56,865 - INFO - musicbot.entry | In entry.py::MainThread(18708), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=V6k5wpoL3sg
+[16.5713758468627930] 2018-04-03 12:04:56,893 - INFO - musicbot.entry | In entry.py::MainThread(18708), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=V6k5wpoL3sg
+[18.5970683097839355] 2018-04-03 12:04:58,918 - INFO - musicbot.entry | In entry.py::MainThread(18708), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=V6k5wpoL3sg
+[18.6005795001983643] 2018-04-03 12:04:58,922 - DEBUG - musicbot.player | In player.py::MainThread(18708), line 269 in get_mean_volume: Calculating mean volume of audio_cache\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm
+[19.4408507347106934] 2018-04-03 12:04:59,762 - DEBUG - musicbot.player | In player.py::MainThread(18708), line 290 in get_mean_volume: Calculated mean volume as -15.2
+[19.4408507347106934] 2018-04-03 12:04:59,762 - FFMPEG - musicbot.player | In player.py::MainThread(18708), line 330 in _play: Creating player with options: -nostdin -af "volume=1.1dB" audio_cache\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm
+[19.4568920135498047] 2018-04-03 12:04:59,778 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 825 in serialize_queue: Serializing queue for 398639161038340096
+[36.4624278545379639] 2018-04-03 12:05:16,784 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *queue
+[48.1716351509094238] 2018-04-03 12:05:28,493 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *queue clearf
+[52.6660721302032471] 2018-04-03 12:05:32,987 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *queue clear
+[59.1169955730438232] 2018-04-03 12:05:39,438 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *help
+[61.9578893184661865] 2018-04-03 12:05:42,279 - DEBUG - musicbot.player | In player.py::MainThread(18708), line 202 in _playback_finished: Deleting file: audio_cache\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm
+[61.9588916301727295] 2018-04-03 12:05:42,280 - DEBUG - musicbot.entry | In entry.py::MainThread(18708), line 54 in get_ready_future: Created future for None
+[61.9588916301727295] 2018-04-03 12:05:42,280 - DEBUG - musicbot.entry | In entry.py::MainThread(18708), line 54 in get_ready_future: Created future for None
+[61.9603948593139648] 2018-04-03 12:05:42,282 - DEBUG - musicbot.bot | In bot.py::MainThread(18708), line 825 in serialize_queue: Serializing queue for 398639161038340096
+[61.9634029865264893] 2018-04-03 12:05:42,285 - INFO - musicbot.entry | In entry.py::MainThread(18708), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=V6k5wpoL3sg
+[61.9724264144897461] 2018-04-03 12:05:42,294 - INFO - musicbot.entry | In entry.py::MainThread(18708), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=V6k5wpoL3sg
+[63.6243245601654053] 2018-04-03 12:05:43,945 - WARNING - musicbot.player | In player.py::MainThread(18708), line 308 in _play: Failed to get entry, retrying
+Traceback (most recent call last):
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\downloader\common.py", line 201, in try_rename
+    os.rename(encodeFilename(old_filename), encodeFilename(new_filename))
+PermissionError: [WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'audio_cache\\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm.part' -> 'audio_cache\\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ra0014\MusikBot\musicbot\entry.py", line 225, in _really_download
+    result = await self.playlist.downloader.extract_info(self.playlist.loop, self.url, download=True)
+  File "C:\Users\ra0014\MusikBot\musicbot\downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\concurrent\futures\thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 796, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 850, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 1623, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 1896, in process_info
+    success = dl(filename, info_dict)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 1835, in dl
+    return fd.download(name, info)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\downloader\common.py", line 364, in download
+    return self.real_download(filename, info_dict)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\downloader\http.py", line 341, in real_download
+    return download()
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\downloader\http.py", line 322, in download
+    self.try_rename(ctx.tmpfilename, ctx.filename)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\downloader\common.py", line 203, in try_rename
+    self.report_error('unable to rename file: %s' % error_to_compat_str(err))
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\downloader\common.py", line 166, in report_error
+    self.ydl.report_error(*args, **kargs)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 613, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\ra0014\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 583, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: unable to rename file: [WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'audio_cache\\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm.part' -> 'audio_cache\\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ra0014\MusikBot\musicbot\player.py", line 306, in _play
+    entry = await self.playlist.get_next_entry()
+  File "C:\Users\ra0014\MusikBot\musicbot\playlist.py", line 334, in get_next_entry
+    return await entry.get_ready_future()
+  File "C:\Users\ra0014\MusikBot\musicbot\entry.py", line 206, in _download
+    await self._really_download()
+  File "C:\Users\ra0014\MusikBot\musicbot\entry.py", line 228, in _really_download
+    raise ExtractionError(e)
+musicbot.exceptions.ExtractionError: ERROR: unable to rename file: [WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'audio_cache\\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm.part' -> 'audio_cache\\youtube-V6k5wpoL3sg-MEME_Dab_on_those_haters.webm'
+[63.7998440265655518] 2018-04-03 12:05:44,121 - INFO - musicbot.entry | In entry.py::MainThread(18708), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=V6k5wpoL3sg
+[65.8725588321685791] 2018-04-03 12:05:46,194 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *Clear
+[75.6607100963592529] 2018-04-03 12:05:55,982 - INFO - musicbot.bot | In bot.py::MainThread(18708), line 2734 in on_message: 196168731087339520/𝓓𝓮𝔁𝔂𝓨𝓣#8155: *shutdown
+[76.1073637008666992] 2018-04-03 12:05:56,429 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(18708), line 2938 in on_voice_state_update: Voice state update for 430078535336460288/Custom MusikBot#8555 on AzollaNetwork/Musik #1 -> [DISCONNECT]
+[76.113379955] launcher-INFO: All done.
